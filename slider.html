@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+</head>
+<body>
+    <style>
+/* 
+        #div1{
+            background-color: blue;
+            height: 500px;
+            width: 100%;
+        }
+
+        #div2{
+            background-color: red;
+            height: 500px;
+            width: 100%;
+        } */
+
+
+
+
+
+
+    </style>
+
+    <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div id="div1" class="swiper-slide">Slide 1</div>
+      <div id="div2" class="swiper-slide">Slide 2</div>
+      
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    
+
+     <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fan Project</title>
+
+    <style>
+
+        body{
+            background-color: rgba(128, 128, 128, 0.288);
+        }
+
+        .main-div{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+        .main {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            animation: rotateFan 1s linear infinite;
+        }
+
+        @keyframes rotateFan {
+            0% {
+                rotate: 0deg;
+            }
+
+            100% {
+                rotate: 360deg;
+            }
+        }
+
+
+
+        .fan-circle {
+            height: 80px;
+            width: 80px;
+            border-radius: 100%;
+            background-color: #d5e1de;
+            border: 3px solid grey;
+            position: absolute;
+            top: 150px;
+            left: 150px;
+            z-index: 10;
+        }
+
+        .fan1 {
+            background-color: #C8A8A0;
+            border: 3px solid black;
+            height: 70px;
+            width: 180px;
+            border-radius: 20px;
+            position: absolute;
+            top: 180px;
+            left: 30px;
+            rotate: 160deg;
+        }
+
+        .fan2 {
+            background-color: #C8A8A0;
+            border: 3px solid black;
+            height: 70px;
+            width: 180px;
+            border-radius: 20px;
+            position: absolute;
+            top: 80px;
+            left: 120px;
+            rotate: 100deg;
+        }
+
+        .fan3 {
+            background-color: #C8A8A0;
+            border: 3px solid black;
+            height: 70px;
+            width: 180px;
+            border-radius: 20px;
+            position: absolute;
+            top: 210px;
+            left: 170px;
+            rotate: 220deg;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-div">
+        <div class="main">
+            <div class="fan1"></div>
+            <div class="fan2"></div>
+            <div class="fan3"></div>
+            <div class="fan-circle"></div>
+        </div>
+
+        <div class="main">
+            <div class="fan1"></div>
+            <div class="fan2"></div>
+            <div class="fan3"></div>
+            <div class="fan-circle"></div>
+        </div>
+
+        <div class="main">
+            <div class="fan1"></div>
+            <div class="fan2"></div>
+            <div class="fan3"></div>
+            <div class="fan-circle"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
