@@ -1371,7 +1371,7 @@ transition: all 1s;}
         border: linear-gradient(green, yellow, red, blue);
     }
 }
-@media (min-width:600px) and (max-width:768px) {
+@media (min-width:0px) and (max-width:400px) {
 
     .main-div{
         width: 99%;
