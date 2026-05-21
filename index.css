@@ -276,7 +276,7 @@ transition: all 1s;}
 }
 .card-3:hover{
     transition: 2s;
-    background-color: #FEA116;
+    background-color: #fea116;
     cursor: pointer;
     box-shadow: 0 0 20px white;
 }
