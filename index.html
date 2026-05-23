@@ -2,460 +2,404 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restoran</title>
-
-    <!-- FONT AWESOME -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-
-    <!-- GOOGLE FONT -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
 
-    <!-- ================= HEADER ================= -->
 
-    <header class="header">
+    <div class="main-div">
 
-        <div class="logo">
-            <i class="fa-solid fa-utensils"></i>
-            <h1>Restoran</h1>
+        <div class="header-section">
+            <div class="header-logo">
+                <i class="fa-solid fa-utensils"></i>
+                <h1>Restoran</h1>
+            </div>
+            <div class="header-menu">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Menu</li>
+                    <li>Pages</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="header-button">
+                <button>Book A Table</button>
+            </div>
         </div>
 
-        <nav class="navbar">
 
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Pages</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <div class="banner-section">
 
-            <button class="nav-btn">Book Table</button>
+            <div class="banner-image">
+                <img src="./bg-hero.jpg" alt="">
+            </div>
 
-        </nav>
-
-        <div class="menu-icon">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-
-    </header>
-
-    <!-- ================= HERO SECTION ================= -->
-
-    <section class="hero">
-
-        <div class="hero-overlay"></div>
-
-        <div class="hero-content">
-
-            <div class="hero-text">
+            <div class="banner-section-text wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
                 <h1>Enjoy Our Delicious Meal</h1>
-
-                <p>
-                    Experience premium quality food made by master chefs
-                    with unforgettable taste and beautiful ambience.
-                </p>
-
+                <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat
+                    ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                 <button>Book A Table</button>
             </div>
 
-            <div class="hero-image">
+            <div class="banner-section-image2">
                 <img src="./hero img.png" alt="">
             </div>
-
         </div>
 
-    </section>
-
-    <!-- ================= FEATURES ================= -->
-
-    <section class="features">
-
-        <div class="feature-card">
-            <i class="fa-solid fa-user-tie"></i>
-            <h2>Master Chefs</h2>
-            <p>Professional chefs delivering world class taste and quality food.</p>
+        <div class="info-card-section">
+            <div class="card-1 wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                <i class="fa-solid fa-user-tie"></i>
+                <h2>Master Chefs</h2>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+            <div class="card-2 wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+                <i class="fa-solid fa-utensils"></i>
+                <h2>Quality Food</h2>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+            <div class="card-3 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+                <i class="fa-solid fa-cart-plus"></i>
+                <h2>Online Order</h2>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+            <div class="card-4 wow animate__animated animate__fadeInUp" data-wow-delay="0.8s">
+                <i class="fa-solid fa-headset"></i>
+                <h2>24/7 Service</h2>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
         </div>
 
-        <div class="feature-card">
-            <i class="fa-solid fa-utensils"></i>
-            <h2>Quality Food</h2>
-            <p>Fresh ingredients with premium recipes for every customer.</p>
-        </div>
+        <div class="about-section">
 
-        <div class="feature-card">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <h2>Online Order</h2>
-            <p>Fast delivery and easy online ordering available 24/7.</p>
-        </div>
-
-        <div class="feature-card">
-            <i class="fa-solid fa-headset"></i>
-            <h2>24/7 Support</h2>
-            <p>Our support team is always available for your service.</p>
-        </div>
-
-    </section>
-
-    <!-- ================= ABOUT ================= -->
-
-    <section class="about">
-
-        <div class="about-images">
-
-            <img src="./about-1.jpg" class="img1" alt="">
-            <img src="./about-2.jpg" class="img2" alt="">
-            <img src="./about-3.jpg" class="img3" alt="">
-            <img src="./about-4.jpg" class="img4" alt="">
-
-        </div>
-
-        <div class="about-content">
-
-            <span>About Us</span>
-
-            <h2>
-                Welcome To <i class="fa-solid fa-utensils"></i> Restoran
-            </h2>
-
-            <p>
-                We provide exceptional dining experiences with delicious meals,
-                beautiful interiors, and professional chefs.
-            </p>
-
-            <div class="about-stats">
-
-                <div class="stat">
-                    <h3>15</h3>
-                    <p>Years Experience</p>
+            <div class="about-section-image1">
+                <div class="about-image1 wow animate__animated animate__zoomIn" data-wow-duration="1.5s"
+                    data-wow-delay="0.2s">
+                    <img src="./about-1.jpg" alt="">
+                </div>
+                <div class="about-image2 wow animate__animated animate__zoomIn" data-wow-duration="1.5s"
+                    data-wow-delay="0.5s">
+                    <img src="./about-2.jpg" alt="">
                 </div>
 
-                <div class="stat">
-                    <h3>50</h3>
-                    <p>Master Chefs</p>
+                <div class="about-text-section">
+                    <div class="about-text">
+                        <h2 id="about-text-h2">About us</h2>
+                        <h1>Welcome to <i class="fa-solid fa-utensils"></i> Restoran</h1>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat
+                            ipsum et lorem et sit, sed stet lorem sit.</p>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
+                            Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                        </p>
+                    </div>
                 </div>
+
 
             </div>
 
-            <button>Read More</button>
 
+            <div class="about-section-image2">
+                <div class="about-image3 wow animate__animated animate__zoomIn" data-wow-duration="1.5s"
+                    data-wow-delay="0.2s">
+                    <img src="./about-3.jpg" alt="">
+                </div>
+                <div class="about-image4 wow animate__animated animate__zoomIn" data-wow-duration="1.5s"
+                    data-wow-delay="0.2s">
+                    <img src="./about-4.jpg" alt="">
+                </div>
+
+                <div class="about-text-section2">
+                    <div class="about-text2">
+                        <h1 id="abouttextheading1">15</h1>
+                        <h2 id="abouttextheading2">Years of</h2>
+                        <h3 id="abouttextheading3">Experience</h3>
+
+                        <h1 id="about-text2">50</h1>
+                        <h2 id="about-txt2">Popular</h2>
+                        <h3 id="about-txt2h3">Master Chefs</h3>
+
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
-    </section>
+        <div class="food-menu wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+            <div class="food-menu-text">
+                <h1>Food Menu</h1>
+                <h2>Most Popular Items</h2>
 
-    <!-- ================= MENU ================= -->
+                <div class="food-menu-text2">
 
-    <section class="menu-section">
-
-        <div class="section-title">
-
-            <span>Food Menu</span>
-            <h2>Most Popular Items</h2>
-
-        </div>
-
-        <div class="food-grid">
-
-            <div class="food-card">
-
-                <img src="./b-1.jpg" alt="">
-
-                <div class="food-content">
-
-                    <div class="food-title">
-                        <h3>Chicken Burger</h3>
-                        <span>$115</span>
+                    <div class="food-menu-text2-div1">
+                        <i class="fa-solid fa-mug-saucer"></i>
+                        <h2>popular</h2>
+                        <h3>Breakfast</h3>
                     </div>
 
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-
-                </div>
-
-            </div>
-
-            <div class="food-card">
-
-                <img src="./b-2.jpg" alt="">
-
-                <div class="food-content">
-
-                    <div class="food-title">
-                        <h3>Cheese Pizza</h3>
-                        <span>$125</span>
+                    <div class="food-menu-text2-div2">
+                        <i class="fa-solid fa-burger"></i>
+                        <h2>Special</h2>
+                        <h3>Lunch</h3>
                     </div>
 
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-
-                </div>
-
-            </div>
-
-            <div class="food-card">
-
-                <img src="./b-3.jpg" alt="">
-
-                <div class="food-content">
-
-                    <div class="food-title">
-                        <h3>French Fries</h3>
-                        <span>$90</span>
+                    <div class="food-menu-text2-div3">
+                        <i class="fa-solid fa-utensils"></i>
+                        <h2>popular</h2>
+                        <h3>Breakfast</h3>
                     </div>
+                </div>
+            </div>
+        </div>
 
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-
+        <div class="food-corner wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+            <div class="food-item-line1">
+                <div class="food-item1">
+                    <img src="./b-1.jpg" alt="">
                 </div>
 
-            </div>
-
-            <div class="food-card">
-
-                <img src="./b-4.jpg" alt="">
-
-                <div class="food-content">
-
-                    <div class="food-title">
-                        <h3>Fried Rice</h3>
-                        <span>$140</span>
-                    </div>
-
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-
+                <div class="food-item1-text1">
+                    <h1>Chicken Burger</h1>
+                    <h2>$115</h2>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 </div>
 
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ================= RESERVATION ================= -->
-
-    <section class="reservation">
-
-        <div class="reservation-image">
-            <img src="./book-table-image.avif" alt="">
-        </div>
-
-        <div class="reservation-form">
-
-            <span>Reservation</span>
-            <h2>Book A Table Online</h2>
-
-            <form>
-
-                <div class="input-group">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your Email">
+                <div class="food-item2">
+                    <img src="./b-2.jpg" alt="">
                 </div>
 
-                <div class="input-group">
-                    <input type="datetime-local">
-                    <input type="number" placeholder="People">
+                <div class="food-item2-text2">
+                    <h1>CHEEZE PIZZA</h1>
+                    <h2>$115</h2>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 </div>
 
-                <textarea placeholder="Special Request"></textarea>
+                <div class="food-item3">
+                    <img src="./b-3.jpg" alt="">
+                </div>
 
-                <button type="submit">Book Now</button>
+                <div class="food-item3-text3">
+                    <h1>FRENCH FRIES</h1>
+                    <h2>$115</h2>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
 
-            </form>
+                <div class="food-item4">
+                    <img src="./b-4.jpg" alt="">
+                </div>
 
+                <div class="food-item4-text4">
+                    <h1>FRIED RICE</h1>
+                    <h2>$115</h2>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="food-item5">
+                    <img src="./b-5.jpg" alt="">
+                </div>
+
+                <div class="food-item5-text5">
+                    <h1>SAMOSHA</h1>
+                    <h2>$115</h2>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="food-item6">
+                    <img src="./b-6.jpg" alt="">
+                </div>
+
+                <div class="food-item6-text6">
+                    <h1>CHAPATI-PANNER</h1>
+                    <h2>$115</h2>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="food-item7">
+                    <img src="./b-7.jpg" alt="">
+                </div>
+
+                <div class="food-item7-text7">
+                    <h1>SANDWICH</h1>
+                    <h2>$115</h2>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <div class="food-item8">
+                    <img src="./b-8.jpg" alt="">
+                </div>
+
+                <div class="food-item8-text8">
+                    <h1>IDALI-SAMBAR</h1>
+                    <h2>$115</h2>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
         </div>
 
-    </section>
-
-    <!-- ================= TEAM ================= -->
-
-    <section class="team-section">
-
-        <div class="section-title">
-            <span>Team Members</span>
-            <h2>Our Master Chefs</h2>
+        <div class="table-book">
+            <div class="table-book-div1 wow animate__animated animate__slideInLeft" data-wow-delay="0.3s">
+                <img src="./book-table-image.avif" alt="">
+            </div>
+            <div class="table-book-div2 wow animate__animated animate__slideInRight" data-wow-delay="0.3s">
+                <h3>Reservation</h3>
+                <h1>Book A Table Online</h1>
+                <input placeholder="Your-Name" type="text">
+                <input placeholder="Your-Email" type="email">
+                <br>
+                <input placeholder="Date-Time" type="datetime-local">
+                <input placeholder="No. Of People" type="number">
+                <br>
+                <input id="table-book-div2-input" placeholder="Special Request" type="text">
+                <br>
+                <button>Book-Now</button>
+            </div>
         </div>
 
-        <div class="team-grid">
-
-            <div class="team-card">
-                <img src="./team-1.jpg" alt="">
-                <h3>Tom Parker</h3>
-                <p>Master Chef</p>
+        <div class="team-section">
+            <div class="team-heading">
+                <h2>Team Members</h2>
+                <h1>Our Master Chefs</h1>
             </div>
 
-            <div class="team-card">
-                <img src="./team-2.jpg" alt="">
-                <h3>Dmitri</h3>
-                <p>Master Chef</p>
-            </div>
+            <div class="team-members">
+                <div class="team-member1 wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                    <img src="./team-1.jpg" alt="">
+                    <h2>Tom parker</h2>
+                </div>
 
-            <div class="team-card">
-                <img src="./team-3.jpg" alt="">
-                <h3>Dion</h3>
-                <p>Master Chef</p>
-            </div>
+                <div class="team-member2 wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+                    <img src="./team-2.jpg" alt="">
+                    <h2>Dmitri</h2>
+                </div>
 
-            <div class="team-card">
-                <img src="./team-4.jpg" alt="">
-                <h3>Fabien</h3>
-                <p>Master Chef</p>
-            </div>
+                <div class="team-member3 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+                    <img src="./team-3.jpg" alt="">
+                    <h2>Dion</h2>
+                </div>
 
+                <div class="team-member4 wow animate__animated animate__fadeInUp" data-wow-delay="0.8s">
+                    <img src="./team-4.jpg" alt="">
+                    <h2>Fabien</h2>
+                </div>
+            </div>
         </div>
 
-    </section>
+        <div class="review-section">
+            <div class="review-heading">
+                <h2>Testimonial</h2>
+                <h1>Our Clients Say!!!</h1>
+            </div>
 
-    <!-- ================= TESTIMONIAL ================= -->
-
-    <section class="testimonial">
-
-        <div class="section-title">
-            <span>Testimonial</span>
-            <h2>Our Clients Say</h2>
-        </div>
-
-        <div class="testimonial-grid">
-
-            <div class="testimonial-card">
-
-                <i class="fa-solid fa-quote-left"></i>
-
-                <p>
-                    Amazing food quality and beautiful ambience.
-                    One of the best restaurants I’ve visited.
-                </p>
-
-                <div class="client">
-
+            <div class="customer-review-box">
+                <div class="review-box1">
+                    <h1><i class="fa-solid fa-quote-left"></i></h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia quisquam, amet odio,
+                        repudiandae architecto neque adipisci deserunt numquam dolorem soluta nobis quod. Quis incidunt,
+                        quam enim facere veniam molestias libero?</p>
                     <img src="./testimonial-1.jpg" alt="">
-
-                    <div>
-                        <h4>Hella</h4>
-                        <span>Designer</span>
-                    </div>
-
+                    <h3>Hella</h3>
                 </div>
-
-            </div>
-
-            <div class="testimonial-card">
-
-                <i class="fa-solid fa-quote-left"></i>
-
-                <p>
-                    Amazing food quality and beautiful ambience.
-                    One of the best restaurants I’ve visited.
-                </p>
-
-                <div class="client">
-
+                <div class="review-box2">
+                    <h1><i class="fa-solid fa-quote-left"></i></h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia quisquam, amet odio,
+                        repudiandae architecto neque adipisci deserunt numquam dolorem soluta nobis quod. Quis incidunt,
+                        quam enim facere veniam molestias libero?</p>
                     <img src="./testimonial-3.jpg" alt="">
-
-                    <div>
-                        <h4>Peter</h4>
-                        <span>Developer</span>
-                    </div>
-
+                    <h3>Peter</h3>
                 </div>
-
-            </div>
-
-            <div class="testimonial-card">
-
-                <i class="fa-solid fa-quote-left"></i>
-
-                <p>
-                    Amazing food quality and beautiful ambience.
-                    One of the best restaurants I’ve visited.
-                </p>
-
-                <div class="client">
-
+                <div class="review-box3">
+                    <h1><i class="fa-solid fa-quote-left"></i></h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia quisquam, amet odio,
+                        repudiandae architecto neque adipisci deserunt numquam dolorem soluta nobis quod. Quis incidunt,
+                        quam enim facere veniam molestias libero?</p>
                     <img src="./testimonial-4.jpg" alt="">
-
-                    <div>
-                        <h4>Lily</h4>
-                        <span>Manager</span>
-                    </div>
-
+                    <h3>Lily</h3>
                 </div>
-
             </div>
-
         </div>
 
-    </section>
-
-    <!-- ================= FOOTER ================= -->
-
-    <footer class="footer">
-
-        <div class="footer-grid">
-
-            <div class="footer-box">
-
-                <h3>Company</h3>
-
-                <ul>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Reservation</li>
-                    <li>Privacy Policy</li>
-                </ul>
-
+        <!-- <div class="floating-button">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div class="floating-whatsapp">
+                <button>Book Now</button>
             </div>
 
-            <div class="footer-box">
+        </div> -->
 
-                <h3>Contact</h3>
-
-                <p><i class="fa-solid fa-location-dot"></i> Jaipur, Rajasthan</p>
-
-                <p><i class="fa-solid fa-phone"></i> +91 2223334440</p>
-
-                <p><i class="fa-solid fa-envelope"></i> info@gmail.com</p>
-
-            </div>
-
-            <div class="footer-box">
-
-                <h3>Opening</h3>
-
-                <p>Monday - Saturday</p>
-                <span>09AM - 09PM</span>
-
-                <p>Sunday</p>
-                <span>10AM - 08PM</span>
-
-            </div>
-
-            <div class="footer-box">
-
-                <h3>Newsletter</h3>
-
-                <p>Subscribe for latest offers and updates.</p>
-
-                <div class="newsletter">
-
-                    <input type="email" placeholder="Your Email">
-
-                    <button>Sign Up</button>
-
+        <div class="footer-section">
+            <div class="footer">
+                <div class="footer-line1">
+                    <h1>Company</h1>
+                    <ul>
+                        <li><i class="fa-solid fa-caret-right"></i> About us</li>
+                        <li><i class="fa-solid fa-caret-right"></i> Contact us</li>
+                        <li><i class="fa-solid fa-caret-right"></i> Reservation</li>
+                        <li><i class="fa-solid fa-caret-right"></i> Privacy Policy</li>
+                        <li><i class="fa-solid fa-caret-right"></i> Terms and Condition</li>
+                    </ul>
                 </div>
 
-            </div>
+                <div class="footer-line2">
+                    <h1>Contact</h1>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> 123 Street,Jaipur,Rajasthan</li>
+                        <li><i class="fa-solid fa-phone"></i> +91-2223334440</li>
+                        <li><i class="fa-solid fa-envelope"></i> info@gmail.com</li>
+                        <div class="footer-line2-icons">
+                            <div class="icon1"><i class="fa-brands fa-twitter"></i></div>
+                            <div class="icon2"><i class="fa-brands fa-facebook-f"></i></div>
+                            <div class="icon3"><i class="fa-brands fa-youtube"></i></div>
+                            <div class="icon4"><i class="fa-brands fa-linkedin-in"></i></div>
+                        </div>
+                    </ul>
 
+                </div>
+                <div class="footer-line3">
+                    <h1>Opening</h1>
+                    <h2>Monday-Saturday</h2>
+                    <h3>09AM-09PM</h3>
+
+                    <h2>Sunday</h2>
+                    <h3>10AM-08PM</h3>
+                </div>
+
+                <div class="footer-line4">
+                    <h1>Newsletter</h1>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <input placeholder="your email" type="email">
+                    <button>SIGNUP</button>
+                </div>
+            </div>
         </div>
 
-    </footer>
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script>
+        new WOW({
+            animateClass: 'animate__animated'
+        }).init();
+    </script>
 
 </body>
 
