@@ -1448,8 +1448,163 @@ transition: all 1s;}
     }
     .about-image2 img{
         height: 200px;
-        margin-top: -0px;
-        margin-left: 60px;
+        margin-top: -150px;
+        margin-left: 150px;
+    }
 
+    .about-text-section{
+        margin-left: -120px;
+        margin-top: -100px;
+    }
+
+    .about-section-image2 {
+        display: block;
+        margin-top: 40px;
+        margin-left: -10px;
+    }
+
+    .about-image3 img{
+        height: 200px;
+    }
+    .about-image4 img{
+        height: 200px;
+        margin-left: 230px;
+        margin-top: -120px;
+    }
+
+    .about-text-section2{
+        margin-left: -30px;
+    }
+    #about-text2{
+        margin-left: -1px;
+        margin-left: 250px;
+    }
+    #about-txt2{
+        margin-left: -1px;
+        margin-left: 320px;
+    }
+    #about-txt2h3{
+        margin-left: -1px;
+        margin-left: 320px;
+        width: 50%;
+    }
+
+    .about-text-section2 button{
+        margin-left: 130px;
+        width: 60%;
+        margin-top: -0px;
+        margin-top: 40px;
+    }
+
+    .food-menu-text{
+        margin-left: 30px;
+    }
+
+    .food-menu-text2{
+        display: inline-block;
+    }
+
+    .food-corner{
+        margin-left: -20px;
+         display: inline-block;
+    }
+
+    .table-book {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .table-book-div1,
+    .table-book-div2 {
+        width: 100%;
+    }
+
+    .table-book-div1{
+        margin-left: 180px;
+    }
+
+    .table-book-div2{
+        height: 670px;
+        margin-left: 180px;
+        margin-top: -10px;
+    }
+    .table-book-div2 input {
+        width: 70%;
+    }
+    #table-book-div2-input{
+        width: 70%;
+    }
+    .table-book-div2 button{
+        width: 80%;
+    }
+
+    .team-heading{
+        margin-left: 170px;
+        width: 100%;
+    }
+
+     .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member1,
+    .team-member2,
+    .team-member3,
+    .team-member4 {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .customer-review-box{
+        display: block;
+    }
+    .review-box1{
+        width: 100%;
+        height: 290px;
+    }
+    .review-box2{
+        width: 100%;
+        height: 290px;
+    }
+    .review-box3{
+        width: 100%;
+        height: 290px;
+    }
+
+    .footer {
+        display: block;
+        padding: 50px;
+        height: 925px;
+    }
+
+    .footer-line1,
+    .footer-line2,
+    .footer-line3,
+    .footer-line4 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer ul {
+        padding: 0;
+    }
+
+    .footer ul li {
+        list-style: none;
+        margin: 10px 0;
+    }
+
+    .footer-line2-icons {
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .footer-line4 input,
+    .footer-line4 button {
+        width: 90%;
+        max-width: 300px;
+        margin-top: 10px;
     }
 }
